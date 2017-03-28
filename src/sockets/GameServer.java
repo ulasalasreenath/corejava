@@ -116,9 +116,9 @@ class ClientThread extends Thread {
 			} else if (serverWinScore < clientWinScore) {
 				writer.print("Client");
 			} else {
-				writer.println("\n Its a tie, both server and client are winners");
+				writer.println("Its a tie, both server and client are winners");
 			}
-			writer.println("\nGame is finished");
+			writer.println("Game is finished");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
