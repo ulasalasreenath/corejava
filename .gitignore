@@ -23,3 +23,12 @@
 hs_err_pid*
 
 bin/
+.classpath
+.project
+.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+.idea/
+*.iml
+.classpath
+.project
+
+
