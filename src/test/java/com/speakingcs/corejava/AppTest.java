@@ -1,4 +1,4 @@
-package com.speakingcs.corejava;
+package org.speakingcs.corejava;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
