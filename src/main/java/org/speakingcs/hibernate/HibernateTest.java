@@ -16,7 +16,7 @@ public class HibernateTest {
 	
 	public static void main(String[] args)
 	{
-		Configuration configuration = new Configuration().configure("\\resources\\hibernate.cfg.xml");
+		Configuration configuration = new Configuration().configure("\\resources\\hibernate.cfg.org.speakingcs.xml");
 		StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder();
 		builder.applySettings(configuration.getProperties());
 		

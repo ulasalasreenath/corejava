@@ -21,7 +21,7 @@ public class SimpleThreadPool {
 			
 		}
 		
-		System.out.println("Finished all threads");
+		System.out.println("Finished all org.speakingcs.threads");
 	}
 	
 }
