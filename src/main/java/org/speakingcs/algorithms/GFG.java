@@ -1,4 +1,4 @@
-package org.springframework.strings;
+package org.speakingcs.algorithms;
 
 import java.util.Arrays;
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+
+    <proxies>
+        <proxy>
+            <id>optional</id>
+            <active>true</active>
+            <protocol>https</protocol>
+            <username>sreenatu</username>
+            <password>Q!w2e3r4r4</password>
+            <!-- <host>asinproxy.ascorp.com</host> -->
+            <host>asdevproxy.ascorp.com</host>
+            <port>80</port>
+            <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
+        </proxy>
+    </proxies>
+</settings>
