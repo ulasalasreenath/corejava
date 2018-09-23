@@ -1,4 +1,4 @@
-package org.speakingcs.algorithms;
+package org.speakingcs.algorithms_datastructures.sorting;
 
 import java.util.Arrays;
 

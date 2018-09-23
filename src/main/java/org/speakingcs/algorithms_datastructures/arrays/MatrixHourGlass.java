@@ -1,4 +1,4 @@
-package org.speakingcs.datastructures.arrays;
+package org.speakingcs.algorithms_datastructures.arrays;
 
 public class MatrixHourGlass {
 

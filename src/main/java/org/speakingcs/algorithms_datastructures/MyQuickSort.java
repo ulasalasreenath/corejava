@@ -1,4 +1,4 @@
-package org.speakingcs.algorithms;
+package org.speakingcs.algorithms_datastructures;
 
 import java.util.Arrays;
 
@@ -6,7 +6,9 @@ public class MyQuickSort {
 
 	public static void main(String[] args) {
 
-		int[] arr = { 5, 3, 6, 7, 2, 1, 9, 0, 45, 34, 23 };
+		//int[] arr = { 5, 3, 6, 7, 2, 1, 9, 0, 45, 34, 23 };
+		int[] arr = {1,2,3,4,5,6,90, 1,2,3,4,5,6};
+
 		System.out.println("before --- " + Arrays.toString(arr));
 		quicksort(arr, 0, arr.length - 1);
 		System.out.println(Arrays.toString(arr));

@@ -1,4 +1,4 @@
-package org.speakingcs.algorithms;
+package org.speakingcs.algorithms_datastructures;
 
 import java.util.ArrayList;
 

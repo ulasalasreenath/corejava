@@ -1,4 +1,4 @@
-package org.speakingcs.datastructures.matrix;
+package org.speakingcs.algorithms_datastructures.matrix;
 
 public class Matrix2D {
 

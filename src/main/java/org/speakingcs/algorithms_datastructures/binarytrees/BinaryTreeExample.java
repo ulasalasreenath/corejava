@@ -1,4 +1,4 @@
-package org.speakingcs.datastructures.binarytrees;
+package org.speakingcs.algorithms_datastructures.binarytrees;
 
 public class BinaryTreeExample {
 	

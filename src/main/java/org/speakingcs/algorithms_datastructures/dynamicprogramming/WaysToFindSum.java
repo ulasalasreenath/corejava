@@ -1,4 +1,4 @@
-package org.speakingcs.algorithms.dynamicprogramming;
+package org.speakingcs.algorithms_datastructures.dynamicprogramming;
 
 import java.util.Scanner;
 
