@@ -69,7 +69,6 @@ public class LongestCommonSubsequenceRecursive {
 
 
         return findLCS1(str1, str1.length() - 1, str2, str2.length() - 1);
-
     }
 
     private static int findLCS1(String str1, int len1, String str2, int len2) {

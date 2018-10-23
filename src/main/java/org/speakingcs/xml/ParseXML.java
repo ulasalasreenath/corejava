@@ -20,7 +20,7 @@ public class ParseXML {
 		
 		ParseXML xmlParser = new ParseXML();
 		try {
-			xmlParser.parse("org.speakingcs.test.org.speakingcs.xml");
+			xmlParser.parse("org.speakingcs.corejava.test.org.speakingcs.xml");
 			
 		} catch (Exception e) {
 			e.printStackTrace();

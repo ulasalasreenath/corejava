@@ -5,7 +5,7 @@ import sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl;
 import javax.naming.ldap.PagedResultsControl;
 import java.util.concurrent.CyclicBarrier;
 
-public class Main {
+public class Main implements Cloneable{
 
 
 
@@ -31,5 +31,10 @@ public class Main {
         System.out.printf("Main: The main thread has finished: \n");
 
 
+    }
+
+    @Override
+    protected Main clone() throws CloneNotSupportedException {
+        return (Main)super.clone();
     }
 }

@@ -41,7 +41,7 @@ public class FileSearch implements Runnable{
     public void run() {
 
         /**
-         * wait until all the org.speakingcs.threads have been created
+         * wait until all the org.speakingcs.corejava.threads have been created
          */
         phaser.arriveAndAwaitAdvance();
         System.out.printf("%s: Starting.\n", Thread.currentThread().getName());

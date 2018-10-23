@@ -21,7 +21,7 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.25</version>
-            <scope>org.speakingcs.test</scope>
+            <scope>org.speakingcs.corejava.test</scope>
         </dependency>-->
 
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
@@ -78,6 +78,13 @@
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
             <version>1.6.11</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.itextpdf/itextpdf -->
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itextpdf</artifactId>
+            <version>5.5.13</version>
         </dependency>
 
     </dependencies>

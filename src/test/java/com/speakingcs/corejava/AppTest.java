@@ -5,15 +5,15 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
- * Unit org.speakingcs.test for simple App.
+ * Unit org.speakingcs.corejava.test for simple App.
  */
 public class AppTest 
     extends TestCase
 {
     /**
-     * Create the org.speakingcs.test case
+     * Create the org.speakingcs.corejava.test case
      *
-     * @param testName name of the org.speakingcs.test case
+     * @param testName name of the org.speakingcs.corejava.test case
      */
     public AppTest( String testName )
     {

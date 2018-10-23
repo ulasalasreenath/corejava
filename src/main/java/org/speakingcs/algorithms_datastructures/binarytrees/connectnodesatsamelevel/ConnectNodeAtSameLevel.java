@@ -49,12 +49,15 @@ public class ConnectNodeAtSameLevel {
             if(node != null) {
                 BTNode nextNode = queue.peek();
                 node.nextRight = nextNode;
-                if(node.right != null) {
-                    queue.add(node.right);
-                }
+
                 if(node.left != null) {
                     queue.add(node.left);
                 }
+
+                if(node.right != null) {
+                    queue.add(node.right);
+                }
+
 
             } else if(!queue.isEmpty()){
                 queue.add(null);
